@@ -1,0 +1,461 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.container{
+	width: 1320px;
+	margin: 0px auto;
+}
+
+.clr{
+	clear: both;
+}
+
+ul,ol{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*===========================================
+			banner part start
+==============================================*/
+#banner_part {
+		background-position: center;
+		background: url(../images/donation13.jpg) no-repeat;
+		background-size: cover;
+		padding: 200px 0px;
+
+}
+#banner_part h1{
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size:70px ;
+	font-weight: 600;
+}
+#banner_part p{
+	width: 640px;
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px ;
+	font-weight: 300;
+	margin: 10px 0px 40px 350px;
+}
+		
+#banner_part a{
+	background: #ff5959;
+	padding: 10px 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px ;
+	font-weight: 500;
+	color: #ffffff;
+	border-radius: 4px;
+	margin-left: 600px;
+	
+
+}	
+
+/*===========================================
+			banner part end
+==============================================*/
+
+/*===========================================
+			nav part start
+==============================================*/
+	nav{
+		padding: 100px 0px;
+	}
+	nav .title h3{
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		font-size:40px ;
+		font-weight: 600;
+	}
+
+	nav .title p{
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		font-size:18px ;
+		font-weight: 400;
+		width: 640px;
+		color: #707070;
+		margin: 10px 0px 40px 330px;
+	}
+
+	nav .menu ul li{
+		display: inline-block;
+		padding: 30px 15px;
+		background: #fafafa;
+		margin-left: 15px;
+		transition: .4s;
+		border-radius: 4px;
+		
+	}
+	nav .menu ul li:hover{
+		background: #ffeeee;
+		color: #ff5959;
+		border-radius: 4px;
+		border: 2px solid #ff5959;
+	}
+
+	nav .menu ul li a{
+		color: #707070;
+		font-family: 'Open Sans', sans-serif;
+		font-size:30px ;
+		font-weight: 600;
+
+	}
+	nav .menu ul li:hover a{
+		color: #ff5959;
+	}
+	nav .menu ul li a.active{
+		color:#ff5959 ;
+
+	}
+	nav .menu ul li.active{
+		background:#ffeeee;
+		border-radius: 4px;
+		border: 2px solid #ff5959;
+	}
+	nav .menu ul{
+		margin-left: 300px;
+	}
+	nav form input{
+		height: 30px;
+		width: 680px;
+		margin-left: 320px;
+		margin-top: 50px;
+		margin-bottom: 35px;
+		border-top: 0px;
+		border-bottom: 2px;
+		border-left: 0px;
+		border-right: 0px;
+		border-style:solid;
+		text-align: center;
+		border-color: #b3b3b3;
+		font-size: 16px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 600;
+
+	}
+	
+	nav .anchor a{
+	background: #ff5959;
+	padding: 10px 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px ;
+	font-weight: 500;
+	color: #ffffff;
+	border-radius: 4px;
+	margin-left: 580px;
+	margin-top: px;
+}	
+
+/*===========================================
+			nav part end
+==============================================*/
+/*===========================================
+			Donate-plan part start
+==============================================*/
+	#donate-plan{
+		padding: 0px 0px 80px 0px;
+	}
+
+	#donate-plan .title h3{
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		font-size:40px ;
+		font-weight: 600;
+	}
+
+	#donate-plan .title p{
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		font-size:18px ;
+		font-weight: 600;
+		width: 640px;
+		color: #707070;
+		margin: 10px 0px 40px 330px;
+	}
+	#donate-plan .donate-food{
+		width: 30%;
+		background: #edf5f6;
+		float: left;
+		margin-left: 15px;
+		box-sizing: border-box;
+		border-radius: 4px;
+		padding: 50px 30px;
+	}
+	
+	#donate-plan .donate-Shelter{
+		width: 30%;
+		background: #ffeeee;
+		float: left;
+		margin-left: 15px;
+		box-sizing: border-box;
+		border-radius: 4px;
+		padding: 50px 30px;
+	}
+	#donate-plan .donate-Education{
+		width: 30%;
+		background:#fff4d6;
+		float: left;
+		margin-left: 15px;
+		padding: 50px 30px;
+		box-sizing: border-box;
+		border-radius: 4px;
+	}
+	#donate-plan h1{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20px;
+		font-weight: 600;
+		color: #121212;
+
+
+
+	}
+	#donate-plan p{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+		font-weight: 500;
+		color: #707070;
+		margin: 14px 0px;
+	}
+	#donate-plan img{
+		height: 45px;
+		width: 50px;
+		margin: 12px 0px;
+		border-radius: 10px;
+
+	}
+/*===========================================
+			Donate-plan part  end
+==============================================*/
+/*===========================================
+			Lives-depend part start
+==============================================*/
+	#lives-depend .text-part{
+		width: 45%;
+		float: left;
+		margin-left: 10px 0px;
+		padding: 20px 30px;
+		
+	}
+	#lives-depend .text-part h1{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 50px;
+		font-weight: 700;
+		color: #121212;
+		margin: 30px 0px;
+
+	}
+	#lives-depend .text-part p{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 16px;
+		font-weight: 600;
+		color: #707070;
+		width: 370px;
+
+	}
+	#lives-depend .text-part h2{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 16px;
+		font-weight: 600;
+		color: #707070;
+		width: 353px;
+		margin: 20px 0px 40px 0px;
+
+	}
+	#lives-depend .text-part a{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 16px;
+		font-weight: 600;
+		color: #ffffff;
+		width: 353px;
+		padding: 14px 14px;
+		background:#ff5959 ;
+		border-radius: 4px;
+
+	}
+
+	#lives-depend .image-part img{
+		width: 40%;
+		height: 530px;
+		float: left;
+		margin-left: 20px;
+		border-radius: 10px;
+
+	}
+	
+	
+/*===========================================
+			Lives-depend part end
+==============================================*/
+/*===========================================
+			need us part strt
+==============================================*/
+	#need-us{
+			padding: 80px 0px;
+		}
+
+		#need-us .image-part img{
+		width: 40%;
+		height: 530px;
+		background: red;
+		float: left;
+		border-radius: 10px;
+
+	}
+	
+	#need-us .text-part{
+		width: 45%;
+		float: left;
+		margin-right:5px 0px;
+		padding: 20px 30px;
+		margin-left: 40px;
+	}
+	#need-us .text-part h1{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 50px;
+		font-weight: 700;
+		color: #121212;
+		margin: 30px 0px;
+		width: 350px;
+
+	}
+	#need-us .text-part p{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 16px;
+		font-weight: 600;
+		color: #707070;
+		width: 370px;
+
+	}
+	#need-us .text-part h2{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 16px;
+		font-weight: 600;
+		color: #707070;
+		width: 353px;
+		margin: 20px 0px 40px 0px;
+
+	}
+	#need-us .text-part a{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 16px;
+		font-weight: 600;
+		color: #ffffff;
+		width: 353px;
+		padding: 14px 14px;
+		background:#ff5959 ;
+		border-radius: 4px;
+
+	}
+
+/*===========================================
+			need us part end
+==============================================*/
+
+	
+/*===========================================
+			updates part strt
+==============================================*/
+
+
+	#updates-part .title h3{
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		font-size:40px ;
+		font-weight: 700;
+	}
+
+	#updates-part .title p{
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		font-size:18px ;
+		font-weight: 600;
+		width: 640px;
+		color: #707070;
+		margin: 10px 0px 40px 330px;
+	}
+	#updates-part .form form{
+		margin-top: 80px;
+		margin-bottom: 130px;
+		background: #fff4d6;
+		margin-left: 100px;
+		padding-top: 100px ;
+		padding-bottom: 130px;
+		width: 75%;
+
+	}
+		
+	#updates-part .form input{
+		padding: 12px 100px 12px 10px;
+		background: #d9d9d9;
+		color: #aa9f9f;
+		border-bottom-left-radius: 6px;
+		border-top-left-radius: 6px;
+		border-top: 0px;
+		border-bottom: 0px;
+		border-left: 0px;
+		border-right: 0px;
+		margin-left: 250px;
+		float: left;
+		
+	}
+
+	#updates-part .form button{
+		padding: 12px 30px;
+		text-align: center;
+		background: #ff5959;
+		color: #ffffff;
+		border-bottom-right-radius: 6px;
+		border-top-right-radius: 6px;
+		border-top: 0px;
+		border-bottom: 0px;
+		border-left: 0px;
+		border-right: 0px;
+		float: left;
+		width: 200px;
+		
+		
+	}
+/*===========================================
+			updates part strt
+==============================================*/
+
+/*===========================================
+			footer part end
+==============================================*/
+
+	footer{
+		padding:48px 0px ;
+		background: #0b0d17;
+		
+	}
+	footer h2{
+		font-family: 'Oleo Script', cursive;
+		color: #ff5959;
+		font-weight: 700;
+		font-size: 35px;
+		font-style: italic;
+		text-align: center;
+		margin-top: 30px;
+
+	}
+	footer p{
+		color: #a5a7ae;
+		text-align: center;
+		margin-top: 10px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		
+	}
+/*===========================================
+			footer part strt
+==============================================*/
